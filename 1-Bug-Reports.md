@@ -20,7 +20,7 @@ The text field should be highlighted in red.
 
 
 #### Relevant logs and/or media (optional)
-
+/home/shammika/Pictures/NoErrorMsg
 
 #### Other comment (optional)
 
@@ -29,5 +29,3 @@ The text field should be highlighted in red.
 #### Reported by
 ShammikaD
 
-
-/label ~Bug
