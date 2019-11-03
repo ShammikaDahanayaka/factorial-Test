@@ -19,7 +19,7 @@ Open terminal (MAC OSX) or command prompt / power shell (for windows OS) and nav
 type `mvn clean test` command to run features. With this command it will invoke the default Firefox browser and will execute the tests.
 
 - To run features on specific browser use, `mvn test "-Dbrowser=browser_name"`
-browser_name can be one of following but make sure that browser’s driver file are present and specified in system variable. -- ff -- chrome -- ie -- safari etc.
+Ex: `mvn test -Dbrowser=chrome"`
 
 Please note that browser drivers are not included as part of this framework. The reason for not including is that selenium browser driver version are varies based on the browser version that you are using and also selenium server version.
 
