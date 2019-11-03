@@ -30,8 +30,8 @@ Feature: Factorial test negative scenarios
     Then I should be able to see element having id as "resultDiv" should have text as "<factorialValue>"
     Then I take screenshot
     Examples:
-      | testNumber | factorialValue           |
-      | 3          | The factorial of 3 is: 6 |
+      | testNumber | factorialValue                    |
+      |     171    | The factorial of 171 is: Infinity |
 
   @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
@@ -76,3 +76,15 @@ Feature: Factorial test negative scenarios
     Examples:
       | testNumber | factorialValue          |
       |            | Please enter an integer |
+
+  @factTest
+  Scenario Outline: I test boundary input of "<testNumber>"
+    Given I navigate to "http://qainterview.pythonanywhere.com/"
+    And I enter "<testNumber>" into input field having id "number"
+    When I click on element having id "getFactorial"
+    Then I should be able to see element having id as "resultDiv" should have text as "<factorialValue>"
+    Then I take screenshot
+    Examples:
+      | testNumber | factorialValue          |
+      | 10/2       | Please enter an integer |
+

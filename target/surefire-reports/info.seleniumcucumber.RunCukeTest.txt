@@ -1,16 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: info.seleniumcucumber.RunCukeTest
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 20.663 s <<< FAILURE! - in info.seleniumcucumber.RunCukeTest
-Then I should see page title as "http://qainterview.pythonanywhere.com/terms"(| Terms and Conditions |)  Time elapsed: 0.012 s  <<< ERROR!
+Tests run: 88, Failures: 0, Errors: 8, Skipped: 1, Time elapsed: 41.482 s <<< FAILURE! - in info.seleniumcucumber.RunCukeTest
+Then I should be able to see element having id as "resultDiv" should have text as "Please enter an positive integer"(| -1 | Please enter an positive integer |)  Time elapsed: 0.011 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Text Not Matched
+
+| -1 | Please enter an positive integer |  Time elapsed: 0.011 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Text Not Matched
+
+Then I should see page title as "factorial"(Scenario: I verify page title)  Time elapsed: 0.004 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : Factoriall
+
+Scenario: I verify page title  Time elapsed: 0.007 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : Factoriall
+
+Then I should see page title as "qainterview.pythonanywhere.com/terms"(| Terms and Conditions |)  Time elapsed: 0.001 s  <<< ERROR!
 info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 
-| Terms and Conditions |  Time elapsed: 0.012 s  <<< ERROR!
+| Terms and Conditions |  Time elapsed: 0.001 s  <<< ERROR!
 info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 
 Then I should see page title as "qainterview.pythonanywhere.com/privacy"(| Privacy |)  Time elapsed: 0.001 s  <<< ERROR!
 info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 
-| Privacy |  Time elapsed: 0.001 s  <<< ERROR!
+| Privacy |  Time elapsed: 0.004 s  <<< ERROR!
 info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 
