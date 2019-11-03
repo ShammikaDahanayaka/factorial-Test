@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1572786775157" stop="1572786803714" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Factorial</name>
+    <description type="text">As a user I should able calculate factorial number for given number</description>
+    <test-cases>
+        <test-case start="1572786775175" stop="1572786789239" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786775181" stop="1572786787732" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786787738" stop="1572786787865" status="passed">
+                    <name>And I enter "01" into input field having id "number"</name>
+                    <title>And I enter "01" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786787865" stop="1572786788099" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786788101" stop="1572786789158" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 01 is: 1"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 01 is: 1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786789159" stop="1572786789237" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786789258" stop="1572786791327" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786789258" stop="1572786789867" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786789873" stop="1572786789975" status="passed">
+                    <name>And I enter "+169" into input field having id "number"</name>
+                    <title>And I enter "+169" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786789975" stop="1572786790211" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786790212" stop="1572786791276" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of +169 is: 4.269068009004705e+304"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of +169 is: 4.269068009004705e+304"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786791276" stop="1572786791327" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786791328" stop="1572786793734" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786791328" stop="1572786792219" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786792220" stop="1572786792355" status="passed">
+                    <name>And I enter "3" into input field having id "number"</name>
+                    <title>And I enter "3" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786792355" stop="1572786792631" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786792632" stop="1572786793684" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 3 is: 6"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 3 is: 6"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786793684" stop="1572786793734" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786793734" stop="1572786795696" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786793735" stop="1572786794297" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786794298" stop="1572786794363" status="passed">
+                    <name>And I enter "1.5" into input field having id "number"</name>
+                    <title>And I enter "1.5" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786794363" stop="1572786794596" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786794597" stop="1572786795642" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786795643" stop="1572786795696" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786795696" stop="1572786797714" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786795697" stop="1572786796294" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786796294" stop="1572786796353" status="passed">
+                    <name>And I enter "e3" into input field having id "number"</name>
+                    <title>And I enter "e3" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786796354" stop="1572786796585" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786796586" stop="1572786797647" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786797648" stop="1572786797714" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786797715" stop="1572786799897" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786797715" stop="1572786798524" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786798525" stop="1572786798568" status="passed">
+                    <name>And I enter "!@#$^3" into input field having id "number"</name>
+                    <title>And I enter "!@#$^3" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786798568" stop="1572786798794" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786798795" stop="1572786799835" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786799836" stop="1572786799897" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786799898" stop="1572786801805" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786799898" stop="1572786800427" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786800427" stop="1572786800480" status="passed">
+                    <name>And I enter "" into input field having id "number"</name>
+                    <title>And I enter "" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786800480" stop="1572786800707" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786800708" stop="1572786801756" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786801757" stop="1572786801805" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572786801806" stop="1572786803713" status="passed">
+            <name>I test boundary inputs for negative scenarios</name>
+            <title>I test boundary inputs for negative scenarios</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572786801806" stop="1572786802313" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786802314" stop="1572786802382" status="passed">
+                    <name>And I enter "" into input field having id "number"</name>
+                    <title>And I enter "" into input field having id "number"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786802382" stop="1572786802617" status="passed">
+                    <name>When I click on element having id "getFactorial"</name>
+                    <title>When I click on element having id "getFactorial"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786802619" stop="1572786803663" status="passed">
+                    <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</name>
+                    <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an integer"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572786803663" stop="1572786803713" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test boundary inputs for negative scenarios"/>
+                <label name="feature" value="Factorial"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="21039@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Factorial"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
