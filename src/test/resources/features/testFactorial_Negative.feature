@@ -1,6 +1,6 @@
 Feature: Factorial test negative scenarios
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -11,7 +11,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue            |
       | 01         | The factorial of 01 is: 1 |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -22,7 +22,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue                                   |
       | +169       | The factorial of +169 is: 4.269068009004705e+304 |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -33,7 +33,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue           |
       | 3          | The factorial of 3 is: 6 |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -44,7 +44,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue          |
       | 1.5        | Please enter an integer |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -55,7 +55,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue          |
       | e3         | Please enter an integer |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"
@@ -66,7 +66,7 @@ Feature: Factorial test negative scenarios
       | testNumber | factorialValue          |
       | !@#$^3     | Please enter an integer |
 
-  @voda
+  @factTest
   Scenario Outline: I test boundary input of "<testNumber>"
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     And I enter "<testNumber>" into input field having id "number"

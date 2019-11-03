@@ -21,7 +21,7 @@ import cucumber.api.junit.Cucumber;
 				"info.seleniumcucumber.userStepDefintions" 	// user step definitions package
 
 		},tags = {
-				"@voda1"
+				"@factTest"
 }
 
 	)
