@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1572794261234" stop="1572794275614" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Factorial test</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1572794261249" stop="1572794274750" status="broken">
+            <name>I verify page title</name>
+            <title>I verify page title</title>
+            <description type="text"></description>
+            <failure>
+                <message>TestCaseFailed: Page Title Not Matched, Actual Page Title : Factoriall</message>
+                <stack-trace>info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : Factoriall
+	at info.seleniumcucumber.methods.AssertionMethods.checkTitle(AssertionMethods.java:39)
+	at info.seleniumcucumber.stepdefinitions.PredefinedStepDefinitions.check_title(PredefinedStepDefinitions.java:179)
+	at ✽.Then I should see page title as "factorial"(features/testFactorial.feature:55)
+</stack-trace>
+            </failure>
+            <steps>
+                <step start="1572794261253" stop="1572794274611" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                </step>
+                <step start="1572794274613" stop="1572794274681" status="broken">
+                    <name>Then I should see page title as "factorial"</name>
+                    <title>Then I should see page title as "factorial"</title>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I verify page title"/>
+                <label name="feature" value="Factorial test"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="30868@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1572794274750" stop="1572794275585" status="passed">
+            <name>I test enter button</name>
+            <title>I test enter button</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1572794274751" stop="1572794275458" status="passed">
+                    <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
+                    <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572794275463" stop="1572794275584" status="passed">
+                    <name>Then link having partial text "Terms and Conditions" should be present</name>
+                    <title>Then link having partial text "Terms and Conditions" should be present</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="I test enter button"/>
+                <label name="feature" value="Factorial test"/>
+                <label name="host" value="shammika-HP-ProBook-450-G4"/>
+                <label name="thread" value="30868@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Factorial test"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

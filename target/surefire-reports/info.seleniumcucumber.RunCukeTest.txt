@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: info.seleniumcucumber.RunCukeTest
 -------------------------------------------------------------------------------
-Tests run: 48, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 29.438 s - in info.seleniumcucumber.RunCukeTest
+Tests run: 15, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 20.663 s <<< FAILURE! - in info.seleniumcucumber.RunCukeTest
+Then I should see page title as "http://qainterview.pythonanywhere.com/terms"(| Terms and Conditions |)  Time elapsed: 0.012 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
+
+| Terms and Conditions |  Time elapsed: 0.012 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
+
+Then I should see page title as "qainterview.pythonanywhere.com/privacy"(| Privacy |)  Time elapsed: 0.001 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
+
+| Privacy |  Time elapsed: 0.001 s  <<< ERROR!
+info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
+
