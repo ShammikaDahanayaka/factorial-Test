@@ -60,6 +60,7 @@ Feature: Factorial test
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     Then link having partial text "<link>" should be present
     Then I click on link having partial text "<link>"
+    Then I take screenshot
     Then I should see page title as "qainterview.pythonanywhere.com/terms"
     Examples:
       | link                |
@@ -70,6 +71,7 @@ Feature: Factorial test
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     Then link having partial text "<link>" should be present
     Then I click on link having partial text "<link>"
+    Then I take screenshot
     Then I should see page title as "qainterview.pythonanywhere.com/privacy"
     Examples:
       | link    |
@@ -80,6 +82,7 @@ Feature: Factorial test
     Given I navigate to "http://qainterview.pythonanywhere.com/"
     Then link having partial text "<link>" should be present
     Then I click on link having partial text "<link>"
+    Then I take screenshot
     Then I should see page title as "Qxf2 Services: Outsourced Software QA for startups"
     Examples:
       | link          |

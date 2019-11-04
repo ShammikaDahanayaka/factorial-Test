@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1572796455619" stop="1572796482544" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1572842459216" stop="1572842487744" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Factorial test</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1572796455650" stop="1572796468210" status="passed">
+        <test-case start="1572842459233" stop="1572842474205" status="passed">
             <name>I test boundary input of "0"</name>
             <title>I test boundary input of "0"</title>
             <description type="text"></description>
             <steps>
-                <step start="1572796455659" stop="1572796466595" status="passed">
+                <step start="1572842459239" stop="1572842472679" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796466595" stop="1572796466707" status="passed">
+                <step start="1572842472680" stop="1572842472773" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796466707" stop="1572796466805" status="passed">
+                <step start="1572842472773" stop="1572842472843" status="passed">
                     <name>And I enter "0" into input field having id "number"</name>
                     <title>And I enter "0" into input field having id "number"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796466806" stop="1572796467043" status="passed">
+                <step start="1572842472843" stop="1572842473078" status="passed">
                     <name>When I click on element having id "getFactorial"</name>
                     <title>When I click on element having id "getFactorial"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796467044" stop="1572796468141" status="passed">
+                <step start="1572842473078" stop="1572842474152" status="passed">
                     <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 0 is: 1"</name>
                     <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 0 is: 1"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796468141" stop="1572796468209" status="passed">
+                <step start="1572842474152" stop="1572842474203" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
@@ -50,46 +50,46 @@
                 <label name="story" value="I test boundary input of &quot;0&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796468236" stop="1572796470224" status="passed">
+        <test-case start="1572842474239" stop="1572842476119" status="passed">
             <name>I test boundary input of "1"</name>
             <title>I test boundary input of "1"</title>
             <description type="text"></description>
             <steps>
-                <step start="1572796468237" stop="1572796468751" status="passed">
+                <step start="1572842474239" stop="1572842474722" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796468751" stop="1572796468845" status="passed">
+                <step start="1572842474722" stop="1572842474785" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796468846" stop="1572796468880" status="passed">
+                <step start="1572842474785" stop="1572842474815" status="passed">
                     <name>And I enter "1" into input field having id "number"</name>
                     <title>And I enter "1" into input field having id "number"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796468881" stop="1572796469108" status="passed">
+                <step start="1572842474815" stop="1572842475040" status="passed">
                     <name>When I click on element having id "getFactorial"</name>
                     <title>When I click on element having id "getFactorial"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796469114" stop="1572796470149" status="passed">
+                <step start="1572842475040" stop="1572842476072" status="passed">
                     <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 1 is: 1"</name>
                     <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 1 is: 1"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796470150" stop="1572796470224" status="passed">
+                <step start="1572842476072" stop="1572842476119" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
@@ -101,46 +101,46 @@
                 <label name="story" value="I test boundary input of &quot;1&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796470225" stop="1572796472241" status="passed">
+        <test-case start="1572842476120" stop="1572842478066" status="passed">
             <name>I test boundary input of "170"</name>
             <title>I test boundary input of "170"</title>
             <description type="text"></description>
             <steps>
-                <step start="1572796470225" stop="1572796470783" status="passed">
+                <step start="1572842476120" stop="1572842476672" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796470784" stop="1572796470883" status="passed">
+                <step start="1572842476672" stop="1572842476728" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796470884" stop="1572796470914" status="passed">
+                <step start="1572842476728" stop="1572842476766" status="passed">
                     <name>And I enter "170" into input field having id "number"</name>
                     <title>And I enter "170" into input field having id "number"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796470915" stop="1572796471139" status="passed">
+                <step start="1572842476767" stop="1572842476996" status="passed">
                     <name>When I click on element having id "getFactorial"</name>
                     <title>When I click on element having id "getFactorial"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796471140" stop="1572796472196" status="passed">
+                <step start="1572842476997" stop="1572842478015" status="passed">
                     <name>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 170 is: 7.257415615307999e+306"</name>
                     <title>Then I should be able to see element having id as "resultDiv" should have text as "The factorial of 170 is: 7.257415615307999e+306"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796472196" stop="1572796472241" status="passed">
+                <step start="1572842478016" stop="1572842478065" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                     <attachments/>
@@ -152,11 +152,11 @@
                 <label name="story" value="I test boundary input of &quot;170&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796472243" stop="1572796474252" status="broken">
+        <test-case start="1572842478066" stop="1572842480031" status="broken">
             <name>I test boundary input of "-1"</name>
             <title>I test boundary input of "-1"</title>
             <description type="text"></description>
@@ -169,27 +169,27 @@
 </stack-trace>
             </failure>
             <steps>
-                <step start="1572796472243" stop="1572796472816" status="passed">
+                <step start="1572842478066" stop="1572842478599" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                 </step>
-                <step start="1572796472816" stop="1572796472874" status="passed">
+                <step start="1572842478600" stop="1572842478658" status="passed">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                 </step>
-                <step start="1572796472874" stop="1572796472913" status="passed">
+                <step start="1572842478658" stop="1572842478693" status="passed">
                     <name>And I enter "-1" into input field having id "number"</name>
                     <title>And I enter "-1" into input field having id "number"</title>
                 </step>
-                <step start="1572796472914" stop="1572796473137" status="passed">
+                <step start="1572842478693" stop="1572842478917" status="passed">
                     <name>When I click on element having id "getFactorial"</name>
                     <title>When I click on element having id "getFactorial"</title>
                 </step>
-                <step start="1572796473138" stop="1572796474201" status="broken">
+                <step start="1572842478918" stop="1572842479979" status="broken">
                     <name>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an positive integer"</name>
                     <title>Then I should be able to see element having id as "resultDiv" should have text as "Please enter an positive integer"</title>
                 </step>
-                <step start="1572796474202" stop="1572796474204" status="canceled">
+                <step start="1572842479979" stop="1572842479981" status="canceled">
                     <name>Then I take screenshot</name>
                     <title>Then I take screenshot</title>
                 </step>
@@ -199,11 +199,11 @@
                 <label name="story" value="I test boundary input of &quot;-1&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796474252" stop="1572796474983" status="broken">
+        <test-case start="1572842480031" stop="1572842480553" status="broken">
             <name>I verify page title</name>
             <title>I verify page title</title>
             <description type="text"></description>
@@ -216,11 +216,11 @@
 </stack-trace>
             </failure>
             <steps>
-                <step start="1572796474252" stop="1572796474874" status="passed">
+                <step start="1572842480031" stop="1572842480482" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                 </step>
-                <step start="1572796474875" stop="1572796474899" status="broken">
+                <step start="1572842480483" stop="1572842480492" status="broken">
                     <name>Then I should see page title as "factorial"</name>
                     <title>Then I should see page title as "factorial"</title>
                 </step>
@@ -230,11 +230,11 @@
                 <label name="story" value="I verify page title"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796474983" stop="1572796476023" status="broken">
+        <test-case start="1572842480554" stop="1572842481389" status="broken">
             <name>I verify page link of "Terms and Conditions"</name>
             <title>I verify page link of "Terms and Conditions"</title>
             <description type="text"></description>
@@ -243,23 +243,27 @@
                 <stack-trace>info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 	at info.seleniumcucumber.methods.AssertionMethods.checkTitle(AssertionMethods.java:39)
 	at info.seleniumcucumber.stepdefinitions.PredefinedStepDefinitions.check_title(PredefinedStepDefinitions.java:179)
-	at ✽.Then I should see page title as "qainterview.pythonanywhere.com/terms"(features/testFactorial.feature:63)
+	at ✽.Then I should see page title as "qainterview.pythonanywhere.com/terms"(features/testFactorial.feature:64)
 </stack-trace>
             </failure>
             <steps>
-                <step start="1572796474984" stop="1572796475522" status="passed">
+                <step start="1572842480554" stop="1572842480966" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                 </step>
-                <step start="1572796475523" stop="1572796475565" status="passed">
+                <step start="1572842480966" stop="1572842481025" status="passed">
                     <name>Then link having partial text "Terms and Conditions" should be present</name>
                     <title>Then link having partial text "Terms and Conditions" should be present</title>
                 </step>
-                <step start="1572796475565" stop="1572796476004" status="passed">
+                <step start="1572842481025" stop="1572842481359" status="passed">
                     <name>Then I click on link having partial text "Terms and Conditions"</name>
                     <title>Then I click on link having partial text "Terms and Conditions"</title>
                 </step>
-                <step start="1572796476004" stop="1572796476012" status="broken">
+                <step start="1572842481360" stop="1572842481376" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                </step>
+                <step start="1572842481376" stop="1572842481381" status="broken">
                     <name>Then I should see page title as "qainterview.pythonanywhere.com/terms"</name>
                     <title>Then I should see page title as "qainterview.pythonanywhere.com/terms"</title>
                 </step>
@@ -269,11 +273,11 @@
                 <label name="story" value="I verify page link of &quot;Terms and Conditions&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796476023" stop="1572796476988" status="broken">
+        <test-case start="1572842481389" stop="1572842482264" status="broken">
             <name>I verify page link of "Privacy"</name>
             <title>I verify page link of "Privacy"</title>
             <description type="text"></description>
@@ -282,23 +286,27 @@
                 <stack-trace>info.seleniumcucumber.methods.TestCaseFailed: Page Title Not Matched, Actual Page Title : 
 	at info.seleniumcucumber.methods.AssertionMethods.checkTitle(AssertionMethods.java:39)
 	at info.seleniumcucumber.stepdefinitions.PredefinedStepDefinitions.check_title(PredefinedStepDefinitions.java:179)
-	at ✽.Then I should see page title as "qainterview.pythonanywhere.com/privacy"(features/testFactorial.feature:73)
+	at ✽.Then I should see page title as "qainterview.pythonanywhere.com/privacy"(features/testFactorial.feature:75)
 </stack-trace>
             </failure>
             <steps>
-                <step start="1572796476023" stop="1572796476502" status="passed">
+                <step start="1572842481389" stop="1572842481839" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                 </step>
-                <step start="1572796476502" stop="1572796476531" status="passed">
+                <step start="1572842481840" stop="1572842481866" status="passed">
                     <name>Then link having partial text "Privacy" should be present</name>
                     <title>Then link having partial text "Privacy" should be present</title>
                 </step>
-                <step start="1572796476531" stop="1572796476965" status="passed">
+                <step start="1572842481866" stop="1572842482228" status="passed">
                     <name>Then I click on link having partial text "Privacy"</name>
                     <title>Then I click on link having partial text "Privacy"</title>
                 </step>
-                <step start="1572796476965" stop="1572796476977" status="broken">
+                <step start="1572842482228" stop="1572842482247" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                </step>
+                <step start="1572842482247" stop="1572842482254" status="broken">
                     <name>Then I should see page title as "qainterview.pythonanywhere.com/privacy"</name>
                     <title>Then I should see page title as "qainterview.pythonanywhere.com/privacy"</title>
                 </step>
@@ -308,34 +316,40 @@
                 <label name="story" value="I verify page link of &quot;Privacy&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1572796476989" stop="1572796482542" status="passed">
+        <test-case start="1572842482264" stop="1572842487739" status="passed">
             <name>I verify page link of "Qxf2 Services"</name>
             <title>I verify page link of "Qxf2 Services"</title>
             <description type="text"></description>
             <steps>
-                <step start="1572796476989" stop="1572796477531" status="passed">
+                <step start="1572842482264" stop="1572842482726" status="passed">
                     <name>Given I navigate to "http://qainterview.pythonanywhere.com/"</name>
                     <title>Given I navigate to "http://qainterview.pythonanywhere.com/"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796477531" stop="1572796477579" status="passed">
+                <step start="1572842482726" stop="1572842482767" status="passed">
                     <name>Then link having partial text "Qxf2 Services" should be present</name>
                     <title>Then link having partial text "Qxf2 Services" should be present</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796477579" stop="1572796482537" status="passed">
+                <step start="1572842482767" stop="1572842487586" status="passed">
                     <name>Then I click on link having partial text "Qxf2 Services"</name>
                     <title>Then I click on link having partial text "Qxf2 Services"</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1572796482537" stop="1572796482542" status="passed">
+                <step start="1572842487586" stop="1572842487733" status="passed">
+                    <name>Then I take screenshot</name>
+                    <title>Then I take screenshot</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1572842487734" stop="1572842487739" status="passed">
                     <name>Then I should see page title as "Qxf2 Services: Outsourced Software QA for startups"</name>
                     <title>Then I should see page title as "Qxf2 Services: Outsourced Software QA for startups"</title>
                     <attachments/>
@@ -347,7 +361,7 @@
                 <label name="story" value="I verify page link of &quot;Qxf2 Services&quot;"/>
                 <label name="feature" value="Factorial test"/>
                 <label name="host" value="shammika-HP-ProBook-450-G4"/>
-                <label name="thread" value="3081@shammika-HP-ProBook-450-G4.main(1)"/>
+                <label name="thread" value="19446@shammika-HP-ProBook-450-G4.main(1)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
