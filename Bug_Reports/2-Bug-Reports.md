@@ -21,7 +21,7 @@ The answer field should be reset for -1 calculation. And proper error message sh
 
 
 #### Relevant logs and/or media (optional)
-![ScreenShot](Bug_screenshots/answerFieldNotReset.png)
+![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/answerFieldNotReset.png)
 
 #### Other comment (optional)
 
