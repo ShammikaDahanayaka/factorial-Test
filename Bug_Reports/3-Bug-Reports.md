@@ -2,25 +2,24 @@
 This is the bug identifications during the testing of simple application to determine the factorial of a number.
 http://qainterview.pythonanywhere.com/
 -->
-#### [Calculation Factorial] Enter minus number
+#### Page title is not accurate
 
 
 #### Steps to reproduce 
-1. Enter '-1' in the text field of 'Enter an integer'
-2. Click Calculate! button
+1. Launch the url
+http://qainterview.pythonanywhere.com/
+2. Check the page title
 
 
 #### Current behaviour (bug)
-The application does not return an answer
+Title : Factoriall
 
 
 #### Expected behaviour (correct)
-The application should return a propper error message indicate "Minus numbers are not allowed" etc.
-The text field should be highlighted in red.
-
+Title : Factorial
 
 #### Relevant logs and/or media (optional)
-![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/NoErrorMsg.png)
+![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/title.png)
 
 #### Other comment (optional)
 
