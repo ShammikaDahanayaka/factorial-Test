@@ -2,25 +2,24 @@
 This is the bug identifications during the testing of simple application to determine the factorial of a number.
 http://qainterview.pythonanywhere.com/
 -->
-#### [Calculation Factorial] Enter minus number
+#### Privacy link navigates to wrong page
 
 
 #### Steps to reproduce 
-1. Enter '-1' in the text field of 'Enter an integer'
-2. Click Calculate! button
+1. Click the link 'Terms and Conditions'
+2. Check the page
 
 
 #### Current behaviour (bug)
-The application does not return an answer
+The user navigates to 'T&C' page
 
 
 #### Expected behaviour (correct)
-The application should return a propper error message indicate "Minus numbers are not allowed" etc.
-The text field should be highlighted in red.
+The user should be able to view 'Privacy' page.
 
 
 #### Relevant logs and/or media (optional)
-![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/NoErrorMsg.png)
+![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/TNdC.png)
 
 #### Other comment (optional)
 
