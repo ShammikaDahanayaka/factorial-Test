@@ -20,7 +20,7 @@ The text field should be highlighted in red.
 
 
 #### Relevant logs and/or media (optional)
-![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/NoErrorMsg.png)
+![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/NoErrorMsg.png)
 
 #### Other comment (optional)
 
