@@ -19,7 +19,7 @@ Title : Factoriall
 Title : Factorial
 
 #### Relevant logs and/or media (optional)
-![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/title.png)
+![ScreenShot](https://github.com/ShammikaDahanayaka/factorial-Test/blob/master/Bug_screenshots/title1.png)
 
 #### Other comment (optional)
 
